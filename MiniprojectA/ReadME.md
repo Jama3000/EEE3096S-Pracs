@@ -13,13 +13,7 @@ formula.
 
 • By default, the system continuously monitors the sensors every 5s using this format:
 
-Time        Sys-Timer   Temp    Buzzer
-10:17:15    00:00:00    25 C    *
-10:17:20    00:00:05    25 C
-10:17:25    00:00:10    25 C
-10:17:30    00:00:15    25 C
-10:17:35    00:00:20    25 C
-10:17:35    00:00:20    25 C    *
+Time,        System-Timer,   Temparature,    Buzzer
 
 • The stop switch stops or starts the monitoring of the sensors. The system timer is not
 affected by this functionality. The screen must also be cleared when logging is stopped,
